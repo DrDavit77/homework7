@@ -1,0 +1,45 @@
+.container {
+    max-width: 1920px;
+    width: 100%;
+    margin: auto;
+    padding-top: 140px;
+}
+
+header {
+    padding: 46px 320px;
+    background: #262626;
+    max-width: inherit;
+    width: inherit;
+    position: fixed;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    gap: 68px;
+    align-items: center;
+}
+.Active {
+    color: #DCB47A;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.NoActive {
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
